@@ -1,0 +1,42 @@
+nav{
+    padding: 1rem 7rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-and-nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo-and-nav h1{
+    cursor: pointer;
+}
+
+nav ul{
+    margin: 0 1.5rem;
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 1rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #666565;
+}
+
+.buttons button{
+    background: none;
+    padding: 0.7rem 2rem;
+    margin: 0 0.5rem;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #666565;
+    cursor: pointer;
+}

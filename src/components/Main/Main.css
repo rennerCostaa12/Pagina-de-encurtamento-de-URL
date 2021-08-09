@@ -1,0 +1,41 @@
+.container-banner{
+    width: 110%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.container-banner img{
+    min-width: 350px;
+}
+
+.banner{
+    width: 47%;
+}
+
+.banner h1{
+    margin: 1rem 7rem;
+    font-size: 4rem;
+    line-height: 4.6rem;
+    color: #202020;
+}
+
+.banner p{
+    margin: 1rem 7rem;
+    font-size: 1.1rem;
+    color: #808080;
+}
+
+.banner button{
+    margin: 1rem 7rem;
+    padding: 1rem 2.5rem;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: #2FD1D2;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
