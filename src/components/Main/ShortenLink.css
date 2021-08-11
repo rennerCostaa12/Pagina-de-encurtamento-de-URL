@@ -40,24 +40,27 @@
 }
 
 #content-link{
-    margin: -2rem 7rem;
+    width: 100%;
+    padding: 0 8.5%;
     margin-bottom: 2rem;
 }
 
-#content-link div{
-    padding: 1rem 2rem;
+#content-link > div{
+    width: 100%;
+    padding: 1% 2%;
     background: white;
     border-radius: 5px;
     margin: 0.5rem 0rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #content-link h5{
-    width: 75%;
+    width: 50%;
     margin: 0 1rem;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 #content-link h6{
@@ -81,6 +84,8 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* RESPONSIVIDADE */
 
 @media(max-width: 945px){
     .container-shortenlink button{

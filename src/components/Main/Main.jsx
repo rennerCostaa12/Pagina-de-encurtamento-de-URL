@@ -4,18 +4,15 @@ import Cards from '../Cards/Cards'
 import './Main.css'
 import './ShortenLink.css'
 
-
 import { useState } from 'react'
 
 export default function Main (props){
 
     const [URLInsert, SetURLInset] = useState('')
 
-    
     function quandoMudar(e){
         SetURLInset(e.target.value)
     }
-
 
     function getLink(){
         alert('funcionou')
