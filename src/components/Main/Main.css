@@ -39,7 +39,8 @@
 
 /* ADVANCED STATISTICS */
 .container--Advanced-Statistics{
-    padding-top: 8rem;
+    padding-top: 8%;
+    padding-bottom: 1%;
     width: 100%;
     background-color: #F1F0F7;
 }

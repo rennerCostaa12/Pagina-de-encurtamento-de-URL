@@ -31,3 +31,47 @@
 .midias-socials img{
     margin: 1rem 0.5rem;
 }
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 900px){
+    .container--footer h1{
+        font-size: 1.8rem;
+        width: 20%;
+    }
+    .container--footer > div h1{
+        font-size: 0.8rem;
+        margin: 1rem 0;
+    }
+    .container--footer > div ul li{
+        font-size: 0.6rem;
+        list-style: none;
+        margin: 0.5rem 0;
+    }
+
+    .midias-socials img{
+        width: 1.5rem;
+        margin: 1rem 0.5rem;
+    }
+}
+
+@media (max-width: 768px){
+   
+    .container--footer{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container--footer h1{
+        text-align: center;
+        font-size: 1.8rem;
+        width: 100%
+    }
+}
+
+@media (max-width: 375px){
+    .midias-socials img{
+        width: 1.2rem;
+        margin: 1rem 0.5rem;
+    }
+}

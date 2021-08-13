@@ -95,11 +95,30 @@
     }
 }
 
-@media(max-width: 783px){
+@media(max-width: 768px){
     .container-shortenlink button{
         width: 17%;
         font-size: 0.9rem;
         padding: 1rem 0;
+    }
+
+    #content-link > div{
+        flex-direction: column;
+    }
+    #content-link h5{
+        width: 100%;
+        text-align: center;
+        margin: 0.5rem 0rem;
+        font-size: 15px;
+    }
+    #content-link h6{
+        width: 100%;
+        text-align: center;
+        margin: 0rem;
+        font-size: 17px;
+    }
+    #content-link button{
+        margin: 0.5rem 0;
     }
 }
 
@@ -134,5 +153,18 @@
         font-size: 1.2rem;
         font-weight: bold;
         padding-left: 1rem;
+    }
+}
+
+@media (max-width: 400px){
+    #content-link h5{
+        font-size: 12px;
+    }
+    #content-link h6{
+        font-size: 14px;
+    }
+    #content-link button{
+        font-size: 12px;
+        margin: 0.5rem 0;
     }
 }
