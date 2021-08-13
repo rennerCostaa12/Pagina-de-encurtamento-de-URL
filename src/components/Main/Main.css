@@ -35,15 +35,6 @@
 
 .banner button{
     margin: 1rem 12.5%;
-    padding: 1rem 2.5rem;
-    color: white;
-    border: none;
-    outline: none;
-    border-radius: 25px;
-    background-color: #2FD1D2;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
 }
 
 /* ADVANCED STATISTICS */
@@ -69,6 +60,21 @@
     width: 45%;
     text-align: center;
     color: #808080;
+}
+
+.container--boost-your-links{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 4rem;
+    background-color: #392E52;
+    text-align: center;
+    color: white;
+}
+
+.container--boost-your-links h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* RESPONSIVIDADE */

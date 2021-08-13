@@ -30,6 +30,10 @@ nav ul li a{
     color: #666565;
 }
 
+nav ul li a:hover{
+    color: #1b1b1b;
+}
+
 .buttons button{
     background: none;
     padding: 0.7rem 2rem;
@@ -40,6 +44,7 @@ nav ul li a{
     color: #666565;
     cursor: pointer;
 }
+
 
 /* RESPONSIVIDADE */
 

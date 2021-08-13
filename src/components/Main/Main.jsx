@@ -1,8 +1,10 @@
 import backgroundMain from '../images/illustration-working.svg'
 import backgroundShorten from '../images/bg-shorten-desktop.svg'
+import backgroundBoostDesktop from '../images/bg-boost-desktop.svg'
 import Cards from '../Cards/Cards'
 import './Main.css'
 import './ShortenLink.css'
+import Button from '../Button/Button'
 
 import { useState } from 'react'
 
@@ -43,13 +45,16 @@ export default function Main (props){
     }
 
     return(
-        <>
-            <section className="container--banner">
+        <main className="main">
+             <section className="container--banner">
                 <div className="banner">
                     <h1>More than just shorter links</h1>
-                    <p>Build your brand's recognation and get detailed insights on how your links are performing</p>
+                    <p>
+                        Build your brand's recognation and get detailed insights on how your links 
+                        are performing
+                    </p>
 
-                    <button>Get Started</button>
+                    <Button nameButton="Get Started" />
 
                 </div>
 
@@ -74,12 +79,22 @@ export default function Main (props){
                 <div className="banner--advanced-statistics">
                     <h1>Advanced Statistics</h1>
                     <p>
-                        Track how your links are performing across the web with our advanced statistics dashboard
+                        Track how your links are performing across the web with our advanced 
+                        statistics dashboard
                     </p>
                 </div>
 
                 <Cards />
             </section>
-        </>
+
+            <section className="container--boost-your-links" 
+                style={{backgroundImage: `url(${backgroundBoostDesktop})`}}>
+
+                    <h1>Boost your links today</h1>
+                    <Button nameButton="Get Started" />
+                    
+            </section>
+        </main>
+           
     )
 }
