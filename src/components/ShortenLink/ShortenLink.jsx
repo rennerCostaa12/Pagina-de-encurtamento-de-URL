@@ -47,8 +47,7 @@ export default function ShortenLink(){
                 onChange={quandoMudar}/>                
                 <button onClick={getLink}>Shorten It!</button>
             </div>
-
-          
+            
             <div id="content-link">
 
             </div>
