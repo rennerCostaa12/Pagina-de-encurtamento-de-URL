@@ -1,16 +1,17 @@
+import Button from '../Button/Button'
 import './Header.css'
 
 export default function Header (){
     return(
-        <div>
-            <header>
+        <>
+            <header className="header">
                 <nav>
                     <div className="logo-and-nav">
                         <h1>Shortly</h1>
 
                         <ul>
                             <li>
-                                <a href="#"></a>Features
+                                <a href="#">Features</a>
                             </li>
 
                             <li>
@@ -29,6 +30,6 @@ export default function Header (){
                     </div>    
                 </nav>
             </header>
-        </div>
+        </>
     )
 }
