@@ -1,7 +1,7 @@
 
 .container-cards{
     height: 60%;
-    margin: 4.5rem 7.5rem;
+    margin: 5.5% 8.5%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -44,11 +44,7 @@
     }
     .card img{
         width: 3rem;
-        position:relative;
-        bottom: 1.5rem;
-        border-radius: 360px;
         padding: 0.52rem;
-        background-color: #27254A;
     }
 }
 
@@ -86,11 +82,7 @@
         font-size: 10px;
     }
     .card img{
-        position:relative;
-        bottom: 1.5rem;
-        left: 44.5%;
+        left: 43%;
         border-radius: 360px;
-        padding: 0.5rem;
-        background-color: #27254A;
     }
 }

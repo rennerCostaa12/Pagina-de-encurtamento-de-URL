@@ -54,8 +54,9 @@ export default function Main (props){
                         are performing
                     </p>
 
-                    <Button nameButton="Get Started" />
-
+                    <div className="button--banner">
+                        <Button nameButton="Get Started" />  
+                    </div>
                 </div>
 
                 <img className="img-banner" src={backgroundMain} alt="illustration working" />
@@ -68,8 +69,6 @@ export default function Main (props){
                     onChange={quandoMudar}/>                
                     <button onClick={getLink}>Shorten It!</button>
                 </div>
-
-                
             </div>
         
             <section className="container--Advanced-Statistics">
@@ -92,7 +91,6 @@ export default function Main (props){
 
                     <h1>Boost your links today</h1>
                     <Button nameButton="Get Started" />
-                    
             </section>
         </main>
            

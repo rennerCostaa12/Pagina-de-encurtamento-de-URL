@@ -28,13 +28,13 @@
 
 .banner p{
     width: 30rem;
-    margin: 1rem 12.5%;
+    margin: 2rem 12.5%;
     font-size: 1.1rem;
     color: #808080;
 }
 
 .banner button{
-    margin: 1rem 12.5%;
+    margin: 0 12.5%;
 }
 
 /* ADVANCED STATISTICS */
@@ -133,7 +133,7 @@
     }
 }
 
-@media(max-width: 799px){
+@media(max-width: 768px){
     .container--banner img{
         width: 25rem;
     }
@@ -152,6 +152,23 @@
 
     .banner button{
         font-size: 0.8rem;   
+    }
+
+    .banner--advanced-statistics h1{
+        font-size: 2rem;
+    }
+
+    .banner--advanced-statistics p{
+        width: 50%;
+        font-size: 0.8rem;
+    }
+
+    .container--boost-your-links h1{
+        font-size: 1.7rem;
+    }
+
+    .container--boost-your-links button{
+        font-size: 0.8rem;
     }
 }
 
@@ -181,8 +198,36 @@
         font-size: 0.8rem;
         text-align: center;
     }
+    .button--banner button{
+        margin: auto;
+        display: block;
+    }
+}
 
-    .banner button{
-        margin-left: 38%; 
+@media (max-width: 425px){
+    .banner h1{
+        width: 68%;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .banner p{
+        width: 68%;
+        font-size: 0.7rem;
+    }
+    .banner--advanced-statistics h1{
+        font-size: 1.8rem;
+    }
+    .banner--advanced-statistics p{
+        width: 80%;
+        font-size: 0.8rem;
+    }
+    .container--boost-your-links h1{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 375px){
+    .container--boost-your-links h1{
+        font-size: 1rem;
     }
 }
