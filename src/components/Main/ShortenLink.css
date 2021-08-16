@@ -96,6 +96,13 @@
 }
 
 @media(max-width: 768px){
+    #content-link{
+       margin: 2.5rem 0;
+    }
+    #content-link > div{
+        padding: 1% 2%;
+        overflow-x: scroll;
+    }
     .container-shortenlink button{
         width: 17%;
         font-size: 0.9rem;

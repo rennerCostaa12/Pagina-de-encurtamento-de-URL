@@ -22,7 +22,6 @@ export default function Header (){
                                 <a href="#">Resources</a>
                             </li>
                         </ul>
-                       
                     </div>
                     
                     <div className="buttons"> 

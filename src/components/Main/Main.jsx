@@ -17,7 +17,7 @@ export default function Main (props){
     }
 
     function getLink(){
-        alert('funcionou')
+        alert('Aguarde alguns segundos')
         const URL = `https://api.shrtco.de/v2/shorten?url=${URLInsert}.org/very/long/link.html`
         fetch(URL)
         .then(response => response.json())
