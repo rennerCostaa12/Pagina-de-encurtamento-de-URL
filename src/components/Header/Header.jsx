@@ -22,12 +22,17 @@ export default function Header (){
                                 <a href="#">Resources</a>
                             </li>
                         </ul>
+                       
                     </div>
                     
                     <div className="buttons"> 
                         <button>Login</button>
                         <button style={{background:'#35CDD0', color:'white'}}>Sign Up</button>
-                    </div>    
+                    </div>  
+
+                    <div className="icon-bar">
+                        <i class="fas fa-bars"></i> 
+                    </div>
                 </nav>
             </header>
         </>

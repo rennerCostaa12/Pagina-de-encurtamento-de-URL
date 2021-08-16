@@ -45,6 +45,10 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
+.icon-bar{
+    display: none;
+}
+
 
 /* RESPONSIVIDADE */
 
@@ -71,5 +75,9 @@ nav ul li a:hover{
 
     .buttons{
         display: none;
+    }
+
+    .icon-bar{
+        display: block;
     }
 }
